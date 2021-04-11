@@ -124,7 +124,7 @@ app.post("/", function (req, res){
         id: newID,
         longURL: long
     })
-       const shortURL = "localhost:3000/" + toBase62(newID)
+       const shortURL = "url0shortner.herokuapp.com/" + toBase62(newID)
        newURL.save()
        res.render("index", {shortURL: shortURL})
     })
