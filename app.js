@@ -54,7 +54,7 @@ app.use(express.static('public'));
 // Connect MondoDB
 //
 //
-mongoose.connect("mongodb://localhost:27017/urlDB", {useNewUrlParser: true, useUnifiedTopology: true});
+mongoose.connect("mongodb+srv://admin-mayur:TestUrl9@url-shortner.gxbtm.mongodb.net/urlDB", {useNewUrlParser: true, useUnifiedTopology: true});
 //
 //
 // Create Schemas
